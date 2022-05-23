@@ -58,8 +58,8 @@ const buildMessage = (updates) => {
 
   for (const project of updates) {
     message.blocks.push({
-			type: 'divider'
-		});
+      type: 'divider'
+    });
 
     message.blocks.push(projectBlock(project));
   }
